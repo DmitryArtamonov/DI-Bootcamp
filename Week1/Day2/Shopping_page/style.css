@@ -6,6 +6,12 @@ nav{
     padding: 0.5rem;
 }
 
+nav, footer{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+
 a{
     position: absolute;
     text-decoration: none;
@@ -13,5 +19,12 @@ a{
     font-weight: bold;
     right: 0.5rem;
     text-transform: uppercase;
-    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }

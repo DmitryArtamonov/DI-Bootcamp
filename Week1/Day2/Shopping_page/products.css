@@ -1,0 +1,71 @@
+.row{
+    margin: auto;
+    border: 3px solid red;
+    text-align: center;
+    width: auto;
+    
+
+}
+
+.product{
+    display: inline-block;
+    border: 2px solid blue;
+    width: 200px;
+    text-align: center;
+
+}
+.product_img{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid green;
+    height: 240px;
+    position: relative;
+    padding-top: 15px;
+}
+.green_point, .red_point {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+} 
+
+.green_point p, .red_point p{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.green_point{
+    left: 10px;
+    background-color: green;
+}
+
+.red_point{
+    right: 10px;
+    background-color: red;
+}
+
+.price p {
+    display: inline;
+}
+
+.new_price{
+    font-weight: bold;
+    color:darkgreen
+    
+}
+
+.old_price{
+    font-size: small;
+    text-decoration: line-through;
+    opacity: 70%;
+}
+
+
+#product_1{
+    background-image: url(image1.png);
+}
