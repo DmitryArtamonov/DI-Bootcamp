@@ -1,0 +1,17 @@
+nav{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 0.5rem;
+}
+
+a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    right: 0.5rem;
+    text-transform: uppercase;
+    
+}
