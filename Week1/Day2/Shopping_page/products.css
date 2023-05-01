@@ -1,15 +1,15 @@
 .row{
-    margin: auto;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     text-align: center;
     width: auto;
+    margin-bottom: 20px;
     
 
 }
 
 .product{
     display: inline-block;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 200px;
     text-align: center;
 
@@ -69,3 +69,16 @@
 #product_1{
     background-image: url(image1.png);
 }
+
+#product_2{
+    background-image: url(image2.png);
+}
+
+#product_3{
+    background-image: url(image3.png);
+}
+
+#product_4{
+    background-image: url(image4.png);
+}
+
