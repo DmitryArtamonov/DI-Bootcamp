@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    border: 1px solid;
+}
+
+img{
+    width: 150px;
+}
+
