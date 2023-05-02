@@ -1,0 +1,65 @@
+.container, .container2, .container3{
+    display: grid;
+    border: 1px solid;
+    width: fit-content;
+    margin: auto;
+}
+
+.container, .container2{
+    grid-template-columns: repeat(16, auto);
+}
+
+.container3{
+    grid-template-columns: 2px repeat(16, 24px);
+    grid-template-rows: 2px repeat(9, 24px) 2px;
+
+}
+
+.container2{
+    gap: 4px
+}
+
+.container > *, .container2 > *{
+    height: 20px;
+    width: 20px;
+}
+
+.container > *{
+    margin: 2px;
+}
+
+.light{
+    background-color: yellow;
+}
+
+.mid{
+    background-color: darkorange;
+}
+
+.dark{
+    background-color: brown;
+}
+
+.gray1{
+    background-color: rgb(200, 200, 200);
+}
+
+.gray2{
+    background-color: rgb(150, 150, 150);
+}
+
+.gray3{
+    background-color: rgb(100, 100, 100);
+}
+
+.gray4{
+    background-color: rgb(50, 50, 50);
+}
+
+.red{
+    background-color: red;
+}
+
+.light_red{
+    background-color: rgba(255, 0, 0, 0.548);
+}
