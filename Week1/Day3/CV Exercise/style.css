@@ -1,9 +1,41 @@
 header{
     display: flex;
     border: 1px solid;
+    justify-content: space-between;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 1rem;
+    font-style: italic;
 }
 
 img{
     width: 150px;
 }
 
+.name{
+    margin-left: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+main > *{
+    border: 1px solid green;
+    padding-left: 10px;
+}
+
+.contact_details{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+    gap: 10px;
+
+}

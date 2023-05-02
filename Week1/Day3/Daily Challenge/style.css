@@ -1,0 +1,27 @@
+.box{
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border: 1px solid
+}
+
+.container1, .vertical, .horizontal{
+    display: flex;
+}
+
+.container1{
+    justify-content: space-between;
+}
+
+.vertical{
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.horizontal{
+    flex-direction: row;
+    column-gap: 40px;
+    align-self: center;
+
+}
+
