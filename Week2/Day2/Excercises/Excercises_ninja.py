@@ -46,8 +46,26 @@ print(*res, sep=',')
 # 13.Bonus: Instead of asking the user for 10 integers, generate 10 random integers yourself. Make sure that these random integers are between -100 and 100.
 # 14.Bonus: Instead of always generating 10 integers, let the amount of integers also be random! Generate a random positive integer no smaller than 50.
 # 15.Bonus: Will the code work when the number of random numbers is not equal to 10?
-#
-#
+
+my_list = [3, 47, 99, -80, 22, 97, 54, -23, 5, 7]
+print('2a.', my_list)
+print('2b.', sorted(my_list, reverse=True))
+print('2c.', sum(my_list))
+print('3.', [my_list[0], my_list[-1]])
+print('4.', [n for n in my_list if n > 50])
+print('5.', [n for n in my_list if n < 10])
+print('6.', [n ** 2 for n in my_list])
+
+new_list = []
+for n in my_list:
+    if n not in new_list:
+        new_list.append(n)
+print('7.', new_list, len(new_list))
+
+print('8.', sum(my_list) / len(my_list))
+print('9.', max(my_list))
+print('10.', min(my_list))
+
 # Exercise 3: Working On A Paragraph
 # Find an interesting paragraph of text online. (Please keep it appropriate to the social context of our class.)
 # Paste it to your code, and store it in a variable.
@@ -59,8 +77,23 @@ print(*res, sep=',')
 # Bonus: How many non-whitespace characters it contains.
 # Bonus: The average amount of words per sentence in the paragraph.
 # Bonus: the amount of non-unique words in the paragraph.
-#
-#
+
+text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada pulvinar rhoncus. Integer tincidunt non lorem in pulvinar. Cras vitae nibh quis nulla aliquet porttitor. Nam rutrum nec magna id efficitur. Aliquam aliquet feugiat felis, eu venenatis nunc suscipit sit amet. Vivamus cursus pulvinar turpis eu interdum. Cras dictum ex sit amet facilisis auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam dapibus nisl id tortor feugiat ullamcorper. Pellentesque faucibus tellus velit, eu volutpat justo ultrices et. Mauris lacinia massa eu diam pulvinar, vitae varius felis porta. Proin quis velit venenatis erat dapibus vestibulum quis non diam.'
+
+words = text.split()
+for i, word in enumerate(words):
+    words[i] = word.strip('.,').lower()
+
+sentences = text.split('.')
+
+print(f"""
+There are {len(text)} characters, {len(words)} words and {len(sentences)} in the text.
+Uniq words: {len(set(words))}
+Non-whitespace characters: {len(text) - text.count(' ')}
+The average amount of words per sentence: {len(words) / len(sentences)}
+The amount of non-unique words: {len(words) - len(set(words))}
+""")
+
 # Exercise 4
 # Instructions
 # Write a program that prints the frequency of the words from the input.
@@ -81,3 +114,7 @@ print(*res, sep=',')
 #     choosing:1
 #     or:2
 #     to:1
+
+text = input('text: ').split()
+for w in set(text):
+    print(f'{w}:{text.count(w)}')

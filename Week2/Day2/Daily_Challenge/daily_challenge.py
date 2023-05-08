@@ -38,3 +38,4 @@ for letter in word:
         prev_letter = letter
 
 print(new_word)
+
