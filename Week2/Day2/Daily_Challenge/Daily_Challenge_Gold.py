@@ -11,7 +11,6 @@
 # The number of candles on the cake should be the last number of the users age, if they are 53, then add 3 candles.
 #
 # Bonus : If they were born on a leap year, display two cakes !
-#
 
 from datetime import datetime
 
