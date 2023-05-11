@@ -1,7 +1,7 @@
 #
 def new_board():
     '''
-    Info Creates and return a matrix for empty board
+    Info: Creates and return a matrix for empty board
     '''
 
     field_str = '''
@@ -95,7 +95,6 @@ def turn(game_data, board, player_num, player_data):
         col = int(input('Enter column (1 to 3): ')) - 1
 
         if (row not in [0,1,2]) or (col not in [0,1,2]): # check correct input
-            print(row, col)
             print("Wrong turn! Only 1, 2, or 3 allowed. Try again")
             continue
 
