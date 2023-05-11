@@ -1,7 +1,7 @@
 #
 def new_board():
     '''
-    Info: Creates and return a matrix for empty board
+    Info: Create and return a matrix for empty board
     '''
 
     field_str = '''
@@ -25,7 +25,7 @@ def new_board():
 
 def create_players():
     players_data = {} # key: player number (1 or 2), value: dict with player's data
-    for i in range(1,3):
+    for i in [1, 2]:
         name = input(f'Player {i} name: ')
         players_data[i] = {'name': name, 'wins':0, 'sign': ['X','O'][i-1]}
         # create dict with name, amount of wins and sign (X for pl1, O for pl2)
@@ -35,11 +35,13 @@ def print_board(board):
     '''
     Info: print current board
     '''
+    print()
     for row in board:
         for cell in row:
             print(cell, end='')
         print()  #start new row
-
+    print()
+    return
 def check_win_or_draw(game_data):
     '''
     Info: Check if there is a winner combination. Return pl number (1 or 2) if win,
@@ -140,5 +142,7 @@ def main():
         new_game = input("\nInput 'yes' for another game: ")
 
     print('\nThank you for the game!')
+
+    return
 
 main()
