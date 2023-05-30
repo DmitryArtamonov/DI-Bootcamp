@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Name</title>
+</head>
+<body>
+{% if user %}
+<h1> {{user.name}} </h1>
+<p>email: {{user.email}}</p>
+<p>tel: {{user.number}}</p>
+<p>address: {{user.address}}</p>
+{% else %}
+<h2>No such user!</h2>
+{% endif %}
+
+</body>
+</html>
