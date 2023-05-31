@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All tasks</title>
+</head>
+<body>
+
+  {% for task in todo_tasks %}
+  <div>
+    <h2>{{task.title}}</h2>
+    <b>Details:</b> {{task.title}} <br>
+    <b>Date creation:</b> {{task.date_creation}} <br>
+    <b>Deadline date:</b> {{task.deadline_date}} <br>
+    <b>Category:</b> {{task.category}} <br>
+    <button type="submit" name="done">Done! </button>
+
+  </div>
+
+  {% endfor %}
+
+</body>
+</html>
