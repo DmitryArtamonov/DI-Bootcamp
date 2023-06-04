@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicle</title>
+</head>
+<body>
+
+    date created: {{vehicle.date_created}}<br>
+    real cost: {{vehicle.real_cost}}<br>
+    vehicle type: {{vehicle.vehicle_type}}<br>
+    vehicle size: {{vehicle.vehicle_size}}<br>
+    {% if is_rented %}
+        <p>Currently being rented</p>
+    {% endif %}
+
+</body>
+</html>

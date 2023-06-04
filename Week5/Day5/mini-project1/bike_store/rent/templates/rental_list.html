@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for rental in rental_list %}
+        <p>
+            Rental date: {{rental.rental_date}}
+        </p>
+        <p>
+            Return date: {{rental.return_date}}
+        </p>
+        <p>
+            Customer: {{rental.customer}}
+        </p>
+        <p>
+            Vehicle: {{rental.vehicle}}
+        </p>
+        <hr>
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rental</title>
+</head>
+<body>
+    <p>
+    Rental date: {{rental.rental_date}}
+    </p>
+    <p>
+    {% if rental.return_date %}
+        Returned on: {{rental.return_date}}
+    {% else %}
+        Not yet returned
+    {% endif %}
+    </p>
+    <p>
+    Customer: {{rental.customer}}
+    </p>
+    <p>
+    Vehicle: {{rental.vehicle}}
+    </p>
+
+</body>
+</html>
