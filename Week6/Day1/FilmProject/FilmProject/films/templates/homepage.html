@@ -1,0 +1,33 @@
+{% extends 'partials/base.html' %}
+
+{% block content %}
+
+    {% include 'partials/navbar.html' %}
+
+    <div class="container">
+        <h1 class="display-2">Films</h1>
+
+        {% for film in object_list %}
+
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">
+              {% for category in film.category.all %}
+              {{category}}
+              {%endfor%}
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{film.title}}</h5>
+            <p class="card-text">Released: {{film.release_date}}  </p>
+            <p class="card-text">Directed by:<br>
+                {% for director in film.director.all %}
+                {{director}} <br>
+                {%endfor%}
+            </p>
+          </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    {% endblock %}

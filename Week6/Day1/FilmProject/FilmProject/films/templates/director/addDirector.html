@@ -4,7 +4,7 @@
 
     {% include 'partials/navbar.html' %}
 
-  <form action="{% url 'create_film' %}" method="post">
+  <form action="{% url 'addDirector' %}" method="post">
     {% csrf_token %}
 
     {% for field in form %}
@@ -14,7 +14,7 @@
 
     {% endfor %}
 
-    <button type="submit">Add Film</button>
+    <button type="submit">Add Director</button>
   </form>
 
 {% endblock %}

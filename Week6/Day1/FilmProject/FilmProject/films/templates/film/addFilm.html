@@ -4,7 +4,7 @@
 
     {% include 'partials/navbar.html' %}
 
-  <form action="{% url 'create_film' %}" method="post">
+  <form action="{% url 'addFilm' %}" method="post">
     {% csrf_token %}
 
     {% for field in form %}

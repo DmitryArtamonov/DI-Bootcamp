@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa40ad20-ccc0-4244-be2b-ecbb2d441d27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bike_store/rent/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike_store/rent/templates/customer_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike_store/rent/templates/rental_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike_store/rent/templates/vehicle_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mini-project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini-project1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/bike_store/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/bike_store/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/bike_store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/bike_store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/bike_store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/bike_store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/bike_store/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/bike_store/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/populate.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/populate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/migrations/0002_vehicle_rental_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/migrations/0002_vehicle_rental_vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/migrations/0003_rentalstation.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/migrations/0003_rentalstation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/rental.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/rental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/rental_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/rental_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/vehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/vehicle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/templates/vehicles.html" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/templates/vehicles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bike_store/rent/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bike_store/rent/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QbXHdjxvj5fwFY6X1DOr6oJYZ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Dropbox/Coding/DI/DI-Bootcamp/Week5/Day5/mini-project1",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\Coding\DI\DI-Bootcamp\Week5\Day5\mini-project1\bike_store\rent\templates" />
+      <recent name="D:\Dropbox\Coding\DI\DI-Bootcamp\Week5\Day5\mini-project1\bike_store\rent" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa40ad20-ccc0-4244-be2b-ecbb2d441d27" name="Changes" comment="" />
+      <created>1685623168417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685623168417</updated>
+    </task>
+    <task id="LOCAL-00001" summary="w5d5 mini-project first commit">
+      <created>1685638620393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685638620393</updated>
+    </task>
+    <task id="LOCAL-00002" summary="w5d5 mini-project forms added">
+      <created>1685800440331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685800440331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="w5d5 mini-project first commit" />
+    <MESSAGE value="w5d5 mini-project forms added" />
+    <option name="LAST_COMMIT_MESSAGE" value="w5d5 mini-project forms added" />
+  </component>
+</project>
