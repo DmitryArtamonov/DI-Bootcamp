@@ -1,5 +1,7 @@
 from django.db import models
 from datetime import date
+from django.core.validators import MinValueValidator, MaxValueValidator
+from django.utils import timezone
 
 class Country(models.Model):
     name = models.CharField(max_length=50)
@@ -37,8 +39,14 @@ class Film(models.Model):
 
 class Review(models.Model):
     film = models.ForeignKey(Film, related_name='reviews', on_delete=models.CASCADE)
+    review_text = models.TextField()
+    rating = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)])
+    review_date = models.DateTimeField(default=timezone.now)
 
+    def __str__(self):
+        review_str = f"{'⭐' * self.rating} {self.review_text}"
 
+        return review_str
 
 
 

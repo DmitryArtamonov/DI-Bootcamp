@@ -24,6 +24,16 @@
                 {%endfor%}
             </p>
           </div>
+
+        <div class="card-footer text-muted">
+          <ul class="list-group list-group-flush">
+            {% for review in film.reviews.all %}
+                <li class="list-group-item">{{review}}</li>
+            {%endfor%}
+
+          </ul>
+        </div>
+
         </div>
 
         {% endfor %}
