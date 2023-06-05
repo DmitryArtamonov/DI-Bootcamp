@@ -1,9 +1,8 @@
-{% extends 'partials/base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
 
-    {% include 'partials/navbar.html' %}
-
+{% if user.is_authenticated %}
     <div class="container">
         <h1 class="display-2">Films</h1>
 
@@ -40,4 +39,6 @@
 
     </div>
 
-    {% endblock %}
+{% endif %}
+
+{% endblock %}
