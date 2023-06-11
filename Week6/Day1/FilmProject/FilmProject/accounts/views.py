@@ -14,3 +14,4 @@ class ProfileView(CreateView):
     model = User
     fields = ['username', 'first_name', 'last_name',]
     template_name = "accounts/profile.html"
+

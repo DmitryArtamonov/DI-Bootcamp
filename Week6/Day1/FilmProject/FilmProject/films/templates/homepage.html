@@ -4,6 +4,15 @@
 
 {% if user.is_authenticated %}
     <div class="container">
+
+
+<!--        {{ messages }}-->
+        {% if messages %}
+            {% for message in messages %}
+            {{ message }}<br>
+            {% endfor %}
+        {% endif %}
+
         <h1 class="display-2">Films</h1>
 
         {% for film in object_list %}
