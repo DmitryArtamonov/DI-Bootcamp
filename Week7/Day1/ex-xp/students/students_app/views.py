@@ -11,12 +11,15 @@ from .serializers import StudentSerializer
 class Student_list(APIView):
 
     def get(self, request, *args, **kwargs):
+
+        # --- Daily Challenge start
         date_joined_str = self.request.query_params.get('date_joined')
 
         if date_joined_str:
             date_joined_dt = datetime.strptime(date_joined_str, "%Y-%m-%d").date()
             queryset = Student.objects.filter(date_joined__date=date_joined_dt)
         else:
+        # --- Daily Challenge end
             queryset = Student.objects.all()
 
         serializer = StudentSerializer(queryset, many=True)
