@@ -79,7 +79,7 @@ console.log(fullStackStudents)
 console.log(fullStackNames)
 
 
-// 🌟 Exercise 6 : Star Wars
+// 🌟 Exercise 5 : Star Wars
 // Instructions
 // Using this array
 const epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
@@ -90,7 +90,7 @@ let text = epic.reduce((sentence, word) => sentence + word + ' ', '')
 text = text.slice(0, text.length - 1)
 console.log(text)
 
-// 🌟 Exercise 7 : Employees #2
+// 🌟 Exercise 6 : Employees #2
 // Using the filter() method, create a new array, containing the students that passed the course.
 // Bonus : Chain the filter method with a forEach method, to congratulate the students with their name and course name (ie. “Good job Jenner, you passed the course in Information Technology”, “Good Job Marco you passed the course in Robotics” ect…)
 
