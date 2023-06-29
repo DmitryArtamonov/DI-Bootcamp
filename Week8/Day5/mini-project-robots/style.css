@@ -1,0 +1,62 @@
+main{
+    background-image: url('circuit-pattern.png');
+    background-color:indigo ;
+    justify-content: center;
+}
+
+main, nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+height: 3rem;
+padding: 10px;background-color:palegreen;
+
+}
+
+.logo{
+    margin: 5px;
+    margin-right: 50px;
+    font-family: 'SEGA LOGO FONT', sans-serif;
+    color: darkblue;
+    font-size: 2em;
+}
+
+input{
+    width: 50%;
+    font-size: large;
+    background-color: gainsboro;
+    border: 0;
+}
+
+.card{
+    width: 20rem;
+    margin: 20px;
+    padding: 10px;
+    background-image: url('card-pattern.png');
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px
+}
+
+.img{
+    width: 16rem;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: darkblue;
+}
+
+.robot_name, .robot_email{
+    text-align: left;
+
+}
+
+.robot_name{
+    font-family: 'DK Woolwich', sans-serif;
+}
+
+
+.robot_email{
+    font-family: 'Super Mario 256', sans-serif;
+}
