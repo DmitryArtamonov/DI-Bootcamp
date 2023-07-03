@@ -1,0 +1,42 @@
+body {
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.symbolButton {
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: white;
+    margin: 5px;
+    padding: 6px;
+    width: 4rem;
+}
+
+#field {
+    width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cell {
+
+    width: 150px;
+    height: 150px;
+    font-size: 6rem;
+
+}
+
+#c1, #c2, #c4, #c5, #c7, #c8{
+    border-right: 5px black solid;
+}
+
+#c1, #c2, #c3, #c4, #c5, #c6{
+    border-bottom: 5px black solid;
+}
