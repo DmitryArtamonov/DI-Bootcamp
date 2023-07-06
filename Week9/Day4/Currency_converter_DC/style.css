@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+main{
+
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 150px;
+    height: 400px;
+    width: 600px;
+}
+
+select {
+    margin: 20px;
+}
+
+#result {
+    border-radius: 5px;
+    background-color: aquamarine;
+    margin: 20px auto;
+    width: 300px;
+}
+
+h2{
+    margin: 0;
+
+}
