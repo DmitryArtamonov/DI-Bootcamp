@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url("background-image.gif");
+    background-repeat: repeat;
+    background-color: aqua;
+
+}
+
+#logo{
+    margin: 40px;
+    width: 400px;
+}
+
+#container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+#find_button{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#container, #find_button
+{
+    border: 5px solid #FFE81F;
+    border-radius: 40px;
+}
+
+h1, h2, i{
+    color: white;
+    margin: 20px
+}
+
+#loadingDiv{
+    display: flex;
+    align-items: center;
+}
