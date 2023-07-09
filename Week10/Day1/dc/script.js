@@ -24,3 +24,23 @@ const server = http.createServer((req, res)=> {
     res.end('<h1>Hi there at the frontend</h1>');
     
   }).listen(3000);
+
+//   Part III:
+//   In the main.js, create a function that returns the current date and time. Export the module.
+  
+//   Use the exported module in a script.js file.
+  
+//   Create a server with http and set the response header to 'text/html'. Respond with an HTML paragraph that outputs the current date and time from the exported module.
+  
+//   Your server should run on http://localhost:8080/
+
+const date = require('date-and-time');
+const now = new Date()
+
+const printDate = date.format(now, 'ddd MMM DD YYYY HH:mm:ss [GMT]Z [(Israel Daylight Time)]');
+
+const server2 = http.createServer((req, res)=> {
+    res.setHeader('Content-Type', 'text/html')
+    res.end(printDate);
+    
+  }).listen(8080);
