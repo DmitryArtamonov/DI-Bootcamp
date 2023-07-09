@@ -141,3 +141,9 @@ cython_debug/
 
 static_root
 media_root
+
+static_root
+media_root
+node_modules
+node_modules/
+.node_modules
