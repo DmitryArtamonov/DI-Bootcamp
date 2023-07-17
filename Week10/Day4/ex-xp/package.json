@@ -1,0 +1,19 @@
+{
+  "name": "ex-xp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "start": "nodemon server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "p4ssw0rd": "^1.0.7",
+    "pg": "^8.11.1"
+  }
+}
