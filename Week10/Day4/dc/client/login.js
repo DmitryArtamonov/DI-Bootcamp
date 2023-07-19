@@ -1,9 +1,6 @@
 const loginForm = document.forms.loginForm;
-const regForm = document.forms.regForm;
 const loginButton = document.getElementById('login')
-const regButton = document.getElementById('register')
 const loginMessage = document.getElementById('login_message')
-const regMessage = document.getElementById('reg_message')
 
 // Function to check if all form fields are filled
 function checkFields(form, button) {
@@ -24,50 +21,7 @@ function checkFields(form, button) {
 }
 
 // Add an event listener to the form that listens for changes in the input fields
-regForm.addEventListener("input", () => checkFields(regForm, regButton));
 loginForm.addEventListener("input", () => checkFields(loginForm, loginButton));
-
-
-// Function print a message under registration form after submiting
-function printRegMessage(userData){
-    let message
-    if ('error' in userData){
-        message = userData.error
-    } else {
-        message = `Hi ${userData.firstname} ${userData.lastname}, your ID is: ${userData.id}`
-        regForm.reset()
-    }
-    regMessage.textContent = message
-}
-
-// Event listner for the registration form
-regForm.addEventListener('submit', async event => {
-    event.preventDefault()
-    
-    // Collecting form data to an object
-    let formData = new FormData(regForm)
-    const registrationData = {};
-    formData.forEach((value, key) => {
-        registrationData[key] = value;
-    });
-
-
-    //fetching POST request for registration
-    fetch('http://localhost:3000/registration',{
-        method: 'POST',
-        headers: {
-          'Content-Type':'application/json'
-        },
-        body: JSON.stringify(registrationData)
-      })
-      .then(res => res.json())
-      .then(data => {
-        printRegMessage(data[0]);
-      })
-      .catch(err => {
-        console.log(err);
-      })
-})
 
 
 // Function print a message under login form after submiting
@@ -76,7 +30,7 @@ function printLoginMessage(userData){
     if ('error' in userData){
         message = userData.error
     } else {
-        message = `Hello, your username is: ${userData.username}`
+        message = `Hi ${userData.username} welcome back again!`
     }
     loginMessage.textContent = message
 }
@@ -105,7 +59,7 @@ loginForm.addEventListener('submit', async event => {
       })
       .then(res => res.json())
       .then(data => {
-        printLoginMessage(data[0]);
+        printLoginMessage(data);
       })
       .catch(err => {
         console.log(err);
