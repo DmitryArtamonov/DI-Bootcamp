@@ -1,0 +1,14 @@
+<div>
+    
+    <% posts.forEach(item => { %>
+
+        <h2> <a href="<%= item.link %>"><%= item.title %></a></h2>
+        <p><%= formatDate(item.pubDate) %> | <%= item.creator %>
+         | Category: <%= item.categories %></p>
+        <p><%- item.content %></p>
+
+    <% }) %>
+   
+
+    
+</div>

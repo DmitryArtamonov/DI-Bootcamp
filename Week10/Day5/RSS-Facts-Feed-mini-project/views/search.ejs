@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head'); %>
+</head>
+<body style="margin: 10px;">
+    <%- include('partials/header'); %>
+    <div style="display: flex">
+        <div style="width: 400px; margin: 10px; background-color: aliceblue;">
+            <form action="search">
+                <label for="category">Search category</label>
+                <select name="category">
+                    <option></option>
+                    <% categories.forEach(item => { %>
+                        <option value="<%= item %>"
+                            <% if (item === categoryString) { %>
+                                selected 
+                            <% } %>    
+                            ><%= item %></option>
+                    <% }) %>
+                </select>
+                <button type="submit">Find</button>
+            </form>
+            <form action="search">
+                <label for="search_title">Search title</label>
+                <input type="text" name="search_title" value=<%= searchString %>>
+                <button type="submit">Find</button>
+            </form>
+        
+        
+        </div>
+        
+        <div style="">
+            <%- include('partials/post'); %>
+        </div>
+        
+    </div>
+
+    <%- include('partials/footer'); %>
+    
+</body>
+</html>
