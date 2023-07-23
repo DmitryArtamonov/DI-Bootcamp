@@ -1,7 +1,7 @@
 import React from 'react'
 import './Language.css'
 
-const Language = ({key, language, votes, voteFunc}) => {
+const Language = ({language, votes, voteFunc}) => {
 
     return (
         <div className='card'>
