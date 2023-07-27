@@ -7,8 +7,6 @@ function FormComponent(props) {
 
     const {getData, data} = props
 
-    const [formData, updateFormData] = React.useState(initialFormData);
-
     const handleSubmit = () => {
         console.log('SUBMIT:', data)
         const queryString = new URLSearchParams(data).toString();
@@ -31,7 +29,7 @@ function FormComponent(props) {
  
     return (
       
-        <form  onChange={handleChange} onSubmit={handleSubmit}
+        <form  onChange={handleChange}
 
             style={{
                 display: "flex",
